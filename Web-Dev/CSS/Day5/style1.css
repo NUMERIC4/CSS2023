@@ -26,3 +26,19 @@ h1{
 
 /* There is an overruled selectors exist. For CSS welldefined addresses overruled the less defined ones !!!
 or the last updated style overruled the previous defined ones IFF both defined same detail level */
+
+#firstID{
+    color: darkcyan;
+}
+
+.myFirstClass:hover {
+    color: black;
+}
+
+h1:first-child{
+    background-color: red;
+}
+
+p::after{
+    
+}
