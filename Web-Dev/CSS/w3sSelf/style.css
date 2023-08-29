@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    text-align: center;
+    margin-left: 200px;
+}
+p{
+    text-align: center;
+}
+
+#idParagraph{
+    text-align: right;
+    margin-right: 10%;
+}
+
+.center{
+    color: red;
+    margin-right: 20px;
+}
+
+/* super class referance for some elements 
+like item+id item+class item */
+p#idParagraph, p.center, h1 {
+    background-color: aqua;
+    border-top-left-radius: 4cm;
+    border-bottom-right-radius: 4cm;
+    border-bottom-left-radius: 1cm;
+    border-top-right-radius: 1cm;
+}
+
+/* more then 1 element or id or class or whatever get same style format :D */
+th, td, tr{
+    color: white;
+}
+
+.inhalt {
+    color: white;
+    background-color: darkblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid red;
+    border-radius: 2cm;
+}
+
