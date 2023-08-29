@@ -1,70 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <style>
-        body {
-            background-color: chocolate;
-        }
-    </style>
-    <title>W3-Infos</title>
-</head>
-<body>
-    <table class="ws-table-all notranslate">
-        <tbody><tr>
-          <th style="width:20%">Selector</th>
-          <th style="width:20%">Example</th>
-          <th>Example description</th>
-        </tr>
-        <tr>
-          <td><a href="/cssref/sel_id.asp">#<i>id</i></a></td>
-          <td class="notranslate">#firstname</td>
-          <td>Selects the element with id="firstname"</td>
-        </tr>
-        <tr>
-          <td><a href="/cssref/sel_class.asp">.<i>class</i></a></td>
-          <td class="notranslate">.intro</td>
-          <td>Selects all elements with class="intro"</td>
-        </tr>
-        <tr>
-          <td><em><a href="../cssref/sel_element_class.asp">element.class</a></em></td>
-          <td class="notranslate">p.intro</td>
-          <td>Selects only &lt;p&gt; elements with class="intro"</td>
-        </tr>
-        <tr>
-          <td><a href="/cssref/sel_all.asp">*</a></td>
-          <td class="notranslate">*</td>
-          <td>Selects all elements</td>
-        </tr>
-        <tr>
-          <td><i><a href="/cssref/sel_element.asp">element</a></i></td>
-          <td class="notranslate">p</td>
-          <td>Selects all &lt;p&gt; elements</td>
-        </tr>
-        <tr>
-          <td><i><a href="/cssref/sel_element_comma.asp">element,element,..</a></i></td>
-          <td class="notranslate">div, p</td>
-          <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
-        </tr>
-      </tbody>
-    </table>
 
-    <h1>Cascading Order</h1>
-<p class="inhalt">What style will be used when there is more than one style specified for an HTML element?</p>
-<p class="inhalt">All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:</p>
-<p class="inhalt">Inline style (inside an HTML element)
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  <title>W3-Infos</title>
+</head>
+
+<body>
+  <p> <a href="index2.html" style="text-decoration: none; color: blue;"><i>Second page</i></a></p>
+  <table class="ws-table-all notranslate">
+    <tbody>
+      <tr>
+        <th style="width:20%">Selector</th>
+        <th style="width:20%">Example</th>
+        <th>Example description</th>
+      </tr>
+      <tr>
+        <td><a href="/cssref/sel_id.asp">#<i>id</i></a></td>
+        <td class="notranslate">#firstname</td>
+        <td>Selects the element with id="firstname"</td>
+      </tr>
+      <tr>
+        <td><a href="/cssref/sel_class.asp">.<i>class</i></a></td>
+        <td class="notranslate">.intro</td>
+        <td>Selects all elements with class="intro"</td>
+      </tr>
+      <tr>
+        <td><em><a href="../cssref/sel_element_class.asp">element.class</a></em></td>
+        <td class="notranslate">p.intro</td>
+        <td>Selects only &lt;p&gt; elements with class="intro"</td>
+      </tr>
+      <tr>
+        <td><a href="/cssref/sel_all.asp">*</a></td>
+        <td class="notranslate">*</td>
+        <td>Selects all elements</td>
+      </tr>
+      <tr>
+        <td><i><a href="/cssref/sel_element.asp">element</a></i></td>
+        <td class="notranslate">p</td>
+        <td>Selects all &lt;p&gt; elements</td>
+      </tr>
+      <tr>
+        <td><i><a href="/cssref/sel_element_comma.asp">element,element,..</a></i></td>
+        <td class="notranslate">div, p</td>
+        <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Cascading Order</h1>
+  <p class="inhalt">What style will be used when there is more than one style specified for an HTML element?</p>
+  <p>All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one
+    has the highest priority:</p>
+  <p class="inhalt">Inline style (inside an HTML element)
     External and internal style sheets (in the head section)
     Browser default</p>
-<p class="inhalt">So, an inline style has the highest priority, and will override external and internal styles and browser defaults.</p>
+  <p class="inhalt">So, an inline style has the highest priority, and will override external and internal styles and
+    browser defaults.</p>
 
-    <h1>dsadsa</h1>
-    <p>Prargraph</p>
-    <p id="idParagraph" class="center">Paragraph 2</p>
-    <p class="center" style="color: orange;">Paragraph 3</p>
-    <p class="center2">Paragraph 3</p>
+  <h1>dsadsa</h1>
+  <p>Prargraph</p>
+  <p id="idParagraph" class="center">Paragraph 2</p>
+  <p class="center" style="color: orange;">Paragraph 3</p>
+  <p class="center2">Paragraph 3</p>
+
+  <div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis minima praesentium, modi itaque doloribus possimus suscipit perspiciatis a maiores quasi natus alias est accusamus tenetur saepe! Quam, aperiam. Facere, cum?</p>
+    <p style="color:red;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis minima praesentium, modi itaque doloribus possimus suscipit perspiciatis a maiores quasi natus alias est accusamus tenetur saepe! Quam, aperiam. Facere, cum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis minima praesentium, modi itaque doloribus possimus suscipit perspiciatis a maiores quasi natus alias est accusamus tenetur saepe! Quam, aperiam. Facere, cum?</p>
+  </div>
+  <div class="borderStyle">
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border.</p>
+  </div>
 
 
 </body>
+
 </html>

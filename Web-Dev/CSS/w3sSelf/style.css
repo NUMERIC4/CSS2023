@@ -1,3 +1,30 @@
+*{
+    margin-left: 5px;
+}
+
+body{
+    background-image: url(download.jpeg);
+    /* it will duplicate it only for x axis  */
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-y; */
+
+    /* background-position: center; */
+    background-position: right top;
+
+    /* background can come to downwoard. Its position fixed respect to screen */
+    background-attachment: fixed; 
+
+    background-color: #918d8d7b;
+}
+
+/* if you wanna use single line command for background this is the order that will execute as property 
+background-color
+background-image
+background-repeat
+background-attachment
+background-position */
+
 h1{
     color: red;
     text-align: center;
@@ -5,6 +32,10 @@ h1{
 }
 p{
     text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 #idParagraph{
@@ -17,10 +48,10 @@ p{
     margin-right: 20px;
 }
 
-/* super class referance for some elements 
+/* super class referance for some elements
 like item+id item+class item */
 p#idParagraph, p.center, h1 {
-    background-color: aqua;
+    background-color: rgb(132, 229, 229);
     border-top-left-radius: 4cm;
     border-bottom-right-radius: 4cm;
     border-bottom-left-radius: 1cm;
@@ -34,10 +65,35 @@ th, td, tr{
 
 .inhalt {
     color: white;
-    background-color: darkblue;
+    background-color: rgb(70, 70, 143);
     margin-left: 10%;
     margin-right: 10%;
-    border: 2px solid red;
+    border: 2px solid rgb(40, 216, 75);
     border-radius: 2cm;
 }
 
+p:nth-last-child(1) {
+    color: rgb(133, 133, 222);
+}
+
+a :hover{
+    color: white;
+}
+
+/* it will affect all a tags because everyone of them is first child of their parent */
+a:nth-child(1){
+    cursor: crosshair;
+}
+
+/* Border styles */
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}

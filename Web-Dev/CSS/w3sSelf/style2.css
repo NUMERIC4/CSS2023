@@ -1,0 +1,97 @@
+*{
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    background-color: rgb(0, 0, 0);
+    margin: 20px 15px 10px 5px;
+}
+
+p{
+    background-color: #424141;
+    color: white;
+    /* order is: top right bottom left */
+    /* margin: 20px 15px 10px 5px; */
+    /* it is calculated according to parent limitation !! */
+    margin: 25px 50px 75px 100px;
+}
+
+div:nth-child(3) {
+    /* when we left 1 value empty it will copy accross one but probably, it is up to browser so not a logic solution */
+    /* margin: 25px 50px 75px; */
+    
+    /* it will make it center for container */
+    margin: auto;
+    width: 300px;
+    border: 5px solid red;
+
+    /* It will create a place between content and border !! */
+    padding: 20px 22px 21px 19px;
+}
+
+ /* inherit take values from parent  */
+div:nth-child(3) p{
+    margin: inherit;
+}
+
+div:nth-child(4) {
+    height: 200px;
+    width: 300px;
+    background-color: violet;
+}
+
+div:nth-child(5) p{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+div:nth-child(6){
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+/* Outline examlpes from W3S */
+
+div:nth-child(7) p {outline-color:red;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+  
+p.ex2 {
+border: 1px solid black;
+outline-style: solid;
+outline-color: red;
+outline-width: medium;
+}
+
+p.ex3 {
+border: 1px solid black;
+outline-style: solid;
+outline-color: red;
+outline-width: thick;
+}
+
+p.ex4 {
+border: 1px solid black;
+outline-style: solid;
+outline-color: red;
+outline-width: 4px;
+}
