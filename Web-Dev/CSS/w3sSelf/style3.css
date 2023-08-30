@@ -1,0 +1,49 @@
+*{
+    text-decoration: none;
+    color: black;
+}
+p:first-child:hover{
+background-color: black;
+color: white;
+}
+p.solid{
+    outline-style: solid;
+}
+p.dotted{
+    outline-style: dotted;
+}
+p.outset{
+    outline-style: outset;
+}
+p.red{
+    outline-color: red;
+}
+p.blue{
+    outline-color: blue;
+}
+p.grey{
+    outline-color: grey;
+}
+p.example{
+    outline-width: 5px;
+    border: black 5px solid;
+}
+/* just playing arround :D */
+p.example:hover{
+    outline: solid green;
+    background-color: black;
+    color: white;
+}
+
+p.offset{
+    outline-offset:10px ; /* negative value to move the line away from the element*/
+    outline: solid red;
+}
+
+/* dont know why i can t select the second child 
+p:nth-child(2) */
+p:nth-last-child(1){
+text-align: justify;
+background-color: grey;
+}
+
