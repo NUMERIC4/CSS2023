@@ -1,0 +1,7 @@
+*{text-decoration: none; color: black;}
+body{font-family: "Audiowide", sans-serif;}
+
+a:first-child:hover{background-color: darkblue; color: white; pointer-events: stroke;}
+
+p:first-child{font-family: "Sofia", sans-serif;}
+
