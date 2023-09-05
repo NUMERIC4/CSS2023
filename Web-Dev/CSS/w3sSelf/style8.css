@@ -1,0 +1,4 @@
+.stylingLinks>a:link{color: red;}
+.stylingLinks>a:hover{color: blue;}
+.stylingLinks>a:visited{color: yellow;}
+.stylingLinks>a:active{color: green;}

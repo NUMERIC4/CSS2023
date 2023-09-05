@@ -36,6 +36,7 @@ p{
 
 a{
     text-decoration: none;
+    color: tomato;
 }
 
 #idParagraph{
@@ -83,6 +84,12 @@ a :hover{
 /* it will affect all a tags because everyone of them is first child of their parent */
 a:nth-child(1){
     cursor: crosshair;
+}
+
+th{color: blue;}
+td{background-color: yellowgreen;}
+td:first-child{
+    color: red;
 }
 
 /* Border styles */
