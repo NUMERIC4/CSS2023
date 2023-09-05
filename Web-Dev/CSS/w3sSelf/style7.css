@@ -1,0 +1,4 @@
+/* *{text-decoration: none; color: black;} */
+body>a:first-child{background-color: darkblue; color: white;}
+body>a:first-child>em{color: wheat;}
+body>a>strong{color: red;background-color: green;}

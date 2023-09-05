@@ -1,0 +1,11 @@
+*{text-decoration: none; color: black;}
+
+h1{color: aqua;}
+
+.mainDiv > div:nth-last-child(2) > h1:nth-last-child(1) > p:nth-last-child(3) > a:nth-last-child(1) {color: red;}
+
+#divlast2 > h1:nth-last-child(1) > p:nth-last-child(3) > a:nth-last-child(2) {color: yellow;}
+
+p{
+    border-style: calc(aqua);
+}
